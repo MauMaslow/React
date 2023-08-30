@@ -1,0 +1,64 @@
+.new_video{
+    width: calc(100% - 64px);
+    padding: 0px 32px 64px 32px;
+    height: auto;
+    margin: auto;
+
+}
+
+.video_contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 20px;    
+}
+
+.video_contenedor h1{ 
+    text-align: center;
+    font-size: 3.5rem;
+    color: #fff;
+    padding: 60px 0px;
+
+}
+
+.video_formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
+}
+
+.caja_buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.caja_buttons a{
+    width: 254px;
+    height: 54px;
+    color: #fff;
+    background-color: #2A7AE4;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

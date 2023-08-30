@@ -1,0 +1,33 @@
+.video_input {
+    width: 100%;
+    height: 50px;
+    position: relative;    
+}
+
+.video_input label{
+    position: absolute;
+    color: #E5E5E5;
+    font-size: 1rem;
+    top: 10px;
+    left: 10px;
+
+}
+
+.video_input input{
+    width: 100%;
+    height: 65px;
+    padding: 15px 20px 0px 20px;    
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #53585D;
+    color: #fff;    
+}
+
+::placeholder {
+    color: #fff; /* Cambia el color a tu preferencia */
+  }
+
+  .video_input-color input{
+        height: 65px;
+        padding: 22px 45px;
+}

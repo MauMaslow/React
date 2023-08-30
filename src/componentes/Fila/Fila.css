@@ -1,0 +1,67 @@
+.fila{
+    width: calc(100% - 64px);
+    height: 400px;
+    display: auto;
+    flex-direction: column;
+    padding: 32px;
+    margin: auto;
+}
+
+.contenido__fila{
+    display: flex; 
+    height: auto;   
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.informacion__fila{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    flex-direction: row;   
+    gap: 20px;
+}
+
+.informacion__fila a{
+    width: 250px;
+    height: 60px;
+    padding: 20px 25px;    
+    color: #fff;   
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.informacion__fila span{    
+    color: #fff;       
+    font-size: 1.2rem;
+}
+
+.cards__fila{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;   
+    flex-wrap: nowrap; 
+    gap: 15px;    
+    
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Mejora el desplazamiento en dispositivos táctiles */
+    scrollbar-width: none; /* Oculta la barra de desplazamiento en navegadores modernos */
+    -ms-overflow-style: none;
+}
+
+.cards__fila::-webkit-scrollbar {
+    width: 0; /* Ancho de la barra de desplazamiento */
+  }
+  
+  .cards__fila::-webkit-scrollbar-thumb {
+    background-color: transparent    ; /* Color del pulgar (la parte que se arrastra) */
+  }
+  
+  .cards__fila::-webkit-scrollbar-track {
+    background-color: transparent; /* Color de fondo de la barra de desplazamiento */
+  }
