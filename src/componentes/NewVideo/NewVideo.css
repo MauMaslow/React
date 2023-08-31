@@ -1,9 +1,8 @@
 .new_video{
-    width: calc(100% - 64px);
-    padding: 0px 32px 64px 32px;
+    width: calc(100% - 16px);    
+    padding: 0px 8px 30px 8px;
     height: auto;
     margin: auto;
-
 }
 
 .video_contenedor{
@@ -20,8 +19,7 @@
     text-align: center;
     font-size: 3.5rem;
     color: #fff;
-    padding: 60px 0px;
-
+    padding: 35px 0px;
 }
 
 .video_formulario{
@@ -30,7 +28,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 5rem;
+    gap: 2.5rem;
 }
 
 .caja_buttons{
@@ -39,11 +37,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .video_buttons{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
@@ -51,7 +52,7 @@
 
 
 .caja_buttons a{
-    width: 254px;
+    width: 100%;
     height: 54px;
     color: #fff;
     background-color: #2A7AE4;
@@ -61,4 +62,89 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+@media screen and (min-width:600px){
+
+    .caja_buttons{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .video_buttons{
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .caja_buttons a{
+        width: 250px;        
+    }
+}
+
+@media screen and (min-width:1000px){
+
+    .new_video{
+        width: 768px;    
+        padding: 0px 8px 30px 8px;
+    }
+
+
+
+    .video_buttons{
+        width: 250px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+    
+
+}
+
+
+@media screen and (min-width:1440px){
+
+    .new_video{
+        width: 1400px;
+        padding: 0px 32px 64px 32px;        
+        height: auto;
+        margin: auto;
+    }
+
+    .caja_buttons{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .video_contenedor h1{ 
+        padding: 60px 0px;
+        font-size: 5rem;
+    }
+
+    .video_formulario{
+        gap: 5rem;
+    }
+
+    .video_buttons{
+        width: 450px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .caja_buttons a{
+        width: 254px;
+        font-size: 1.5rem;
+    }
 }

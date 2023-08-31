@@ -12,7 +12,9 @@ const Fila = (props) => {
     
     const renderEnlace = nombre && <a href="" style={colorDeEtiqueta} >{nombre}</a> 
     const inputCambiaColores = nombre &&
+    <div className="div_input">
     <input 
+    className="boton_color"
     type="color"
     value={color}
     onChange={ (e) => {
@@ -20,18 +22,21 @@ const Fila = (props) => {
     }
        }
     ></input>
+    </div>
+
+    const divOculto = nombre && 
+    <div className="informacion__fila">
+    {renderEnlace}
+    <span>{descripcion}</span>
+    {inputCambiaColores}
+    </div>
 
 
     return (
         videos.length > 0 &&
         <section className="fila">
             <div className="contenido__fila">
-                <div className="informacion__fila">
-                    {renderEnlace}
-                    <span>{descripcion}</span>
-                    {inputCambiaColores}
-                </div>
-
+                {divOculto}
                 <div className="cards__fila">
 
                 {

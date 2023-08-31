@@ -1,9 +1,8 @@
 .new_categori{
-    width: calc(100% - 64px);
-    padding: 0px 32px 64px 32px;
+    width: calc(100% - 16px);    
+    padding: 0px 8px 30px 8px;
     height: auto;
     margin: auto;
-
 }
 
 .categori_contenedor{
@@ -20,8 +19,7 @@
     text-align: center;
     font-size: 3.5rem;
     color: #fff;
-    padding: 60px 0px;
-
+    padding: 30px 0px;
 }
 
 .categori_formulario{
@@ -30,14 +28,14 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 5rem;
+    gap: 2.5rem;
 }
 
 .categori_buttons{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 25px;
 }
@@ -60,3 +58,68 @@
     background-color: #9E9E9E;
 }
 
+
+@media screen and (min-width:600px){
+
+
+    .categori_buttons{
+        justify-content: flex-start;             
+    }
+
+    .categori_buttons button{
+        width: 100%;           
+    }
+
+}
+
+@media screen and (min-width:1000px){
+
+
+    .new_categori{
+    width: 768px;
+    padding: 0px 8px 30px 8px;
+    }
+
+    .categori_buttons button{
+        width: 250px;
+        height: 54px;
+        border-radius: 6px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+
+}
+
+@media screen and (min-width:1440px){
+
+    .new_categori{
+        width: calc(100% - 64px);
+        padding: 0px 32px 64px 32px;
+    }
+
+
+    .categori_contenedor h1{ 
+        padding: 60px 0px;
+        font-size: 4rem;
+    }
+
+    .categori_formulario{ 
+        width: 1400px;   
+        padding: 0px 32px 64px 32px;
+        gap: 5rem;
+    }
+
+    .categori_buttons{     
+        justify-content: flex-start;        
+    }
+
+    .categori_buttons button{
+        width: 180px;
+        height: 54px;
+        border-radius: 6px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+}

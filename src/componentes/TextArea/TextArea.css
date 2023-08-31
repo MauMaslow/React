@@ -27,3 +27,21 @@
 ::placeholder {
     color: #fff; /* Cambia el color a tu preferencia */
   }
+
+
+  @media screen and (min-width:1440px){
+
+    .video_text {        
+        height: 150px;        
+    }
+
+    .video_text label{   
+        font-size: 1.5rem;
+    }
+    
+    .video_text textarea{    
+        font-size: 1.5rem;
+        padding: 40px 20px 0px 20px; 
+    }
+
+  }

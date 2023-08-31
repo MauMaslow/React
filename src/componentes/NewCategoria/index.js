@@ -73,7 +73,8 @@ return (
 
 
         <MostrarOcultar mostrarOcultar={mostrarOcultar}/>
-        {mostrarCategorias  &&   <table className="categori_table">
+        {mostrarCategorias  &&   <div className="tabla_contenedor">
+        <table className="categori_table">
             <thead>
                 <tr>
                 <th>Nombre</th>
@@ -127,6 +128,7 @@ return (
                 </tr>
             </tbody>
         </table>
+    </div>
 }
 
         

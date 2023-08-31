@@ -1,9 +1,8 @@
 .card{
-    min-width:425px; 
+    min-width: 300px; 
     height: 260px;
     border: 3px solid;
-    position: relative;      
- 
+    position: relative;  
 }
 
 .card img{
@@ -21,7 +20,7 @@
     font-weight: bold;
     position: absolute;
     top: 25px;
-    left: 45%;
+    right: 5px;
     border: none;
 }
 
@@ -50,3 +49,12 @@
     bottom: 5px;
     right: 0px;
 }
+
+
+@media screen and (min-width:1440px){
+
+    .card{
+        min-width: 500px; 
+        height: 360px;
+    }
+  }

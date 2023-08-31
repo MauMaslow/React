@@ -1,9 +1,14 @@
+.tabla_contenedor{
+    width: 100%;
+    overflow-x: auto;
+}
+
 .categori_table{
     width: 100%;
     height: auto;
     color: #fff;
     border: solid 2px #2A7AE4; 
-    margin-top: 25px;
+    margin-top: 25px;        
 }
 
 .categori_table thead th{
@@ -12,6 +17,7 @@
     border: solid 2px #2A7AE4;
     font-size: 1.5rem;
     padding: 4px 10px;
+    
 }
 
 .categori_table tbody tr{
@@ -26,4 +32,14 @@
 
 .editar, .remover{
     text-align: center;
+}
+
+@media screen and (min-width:1440px){
+
+    .categori_table thead th{
+    font-size: 2rem;
+    }
+    .categori_table tbody tr td{
+        font-size: 1.7rem;
+    }
 }

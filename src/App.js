@@ -153,7 +153,8 @@ actualizarVideos(Like)
   return (    
     <div>
     
-
+      <Header/>             
+      <Banner/> 
       {filasdeVideos.map( (fila) => <Fila      
       datos={fila}
       key={fila.id}
