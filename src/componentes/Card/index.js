@@ -10,13 +10,13 @@ const Card = (props) =>{
     const Bodercolor = { borderColor: hexToRgba(color, 0.6) };
     const Favorito = fav ? <AiFillHeart className="like" color="red"  onClick={()=>like(id)}/> : <AiOutlineHeart className="like" color="red" onClick={()=>like(id)}/>
 
-     
+    const videolink = `https://www.youtube.com/embed/${linkVideo}`
 
 //<iframe src="https://www.youtube.com/embed/uuwfgXD8qV8"></iframe>
 
 return <div className="card" style={Bodercolor}>
         <AiFillCloseCircle className='eliminar' onClick={() => eliminarVideo(id)}/>
-        <img src={linkImagen}></img>
+        <iframe src={videolink}></iframe>        
         <span className='titulo'>{titulo}</span>
         {Favorito}
 </div>

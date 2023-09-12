@@ -1,0 +1,47 @@
+.video_text {
+    width: 100%;
+    height: 100px;
+    position: relative;    
+}
+
+.video_text label{
+    position: absolute;
+    color: #E5E5E5;
+    font-size: 1rem;
+    top: 10px;
+    left: 10px;
+
+}
+
+.video_text textarea{
+    width: 100%;
+    height: 100%;
+    padding: 25px 20px 0px 20px;    
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #53585D;
+    color: #fff;   
+    resize: none; 
+}
+
+::placeholder {
+    color: #fff; /* Cambia el color a tu preferencia */
+  }
+
+
+  @media screen and (min-width:1440px){
+
+    .video_text {        
+        height: 150px;        
+    }
+
+    .video_text label{   
+        font-size: 1.5rem;
+    }
+    
+    .video_text textarea{    
+        font-size: 1.5rem;
+        padding: 40px 20px 0px 20px; 
+    }
+
+  }

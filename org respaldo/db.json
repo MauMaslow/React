@@ -1,0 +1,45 @@
+{  
+  "elementos": [
+                {
+                "titulo": " ",      
+                "colorPrimario":"#6BD1FF"                
+                },
+                
+                {
+                "titulo": "Back End",      
+                "colorPrimario":"#00C86F"
+                },
+                {
+                "titulo": "Mobile",      
+                "colorPrimario":"#FF8C2A"
+
+                },
+                {
+                "titulo": "Infraestrutura",      
+                "colorPrimario":"#FFBA05"
+                },
+                {
+                "titulo": "Data Science",      
+                "colorPrimario":"#DC6EBE"
+                },
+                {
+                "titulo": "Design & UX",      
+                "colorPrimario":"#9CD33B"
+                },
+                {
+                "titulo": "Marketing Digital",
+                "colorPrimario":"#6B5BE2"
+                },
+                {
+                "titulo": "Inovación y Gestión",      
+                "colorPrimario":"#9CD33B"
+                }                
+  ],
+
+  "otracosa":[
+    {
+      "titulo": "Inovación y Gestión",      
+      "colorPrimario":"#9CD33B"
+      } 
+  ]
+}

@@ -1,0 +1,23 @@
+.contenedorError{
+width: 100vw;
+height: 100vh;
+position: relative;
+}
+
+.contenedorError img{
+    width: 100%;
+    height: 100%;
+}
+
+.linka{
+    font-size: 30px;
+    font-weight: bold;
+    
+    position: absolute;
+    bottom: 33%;
+    left: 43%;
+
+    padding: 7px 15px;
+    background-color: #98d832;
+    border-radius: 10px;
+}

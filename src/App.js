@@ -7,8 +7,16 @@ import Footer from './componentes/Footer';
 import NewVideo from './componentes/NewVideo';
 import NewCategoria from './componentes/NewCategoria';
 import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Page404 from './pages/page404';
+import Home from './pages/Home';
+import ReVideos from './pages/registrarVideo';
+import ReCategoria from './pages/registrarCategoria';
+
+
 
 function App() {
+
 const[filasdeVideos, actualizarFilas] = useState([
   {
     id:  uuid(),
@@ -25,6 +33,7 @@ const[filasdeVideos, actualizarFilas] = useState([
     nombre: "volare"
   }
 ])
+
 const[videos , actualizarVideos]= useState([
   {
     fav: true,
@@ -67,6 +76,7 @@ const[videos , actualizarVideos]= useState([
   titulo:"Un universo nos espera  "
 }
 ])
+
   const elementos =[
 
     {
@@ -109,24 +119,25 @@ const[videos , actualizarVideos]= useState([
 
 
 
+
 //Spread operator actaaliza los arreglos se usan ... asi copia el arreglo y agrega depues con [variable ,  nuevo elemento]
 
+/*
 const regisrarVideo = (video)  => {
   console.log("nuevo video es:",  video)  
   actualizarVideos([...videos,video])
 }
+*/
 
+/*
 const eliminarVideo = (id) => {
 const Videos = videos.filter((video) => video.id !== id)
 actualizarVideos(Videos)
 }
+*/
 
 
-const regisrarFila = (fila) => {
-  console.log("nueva fila es:", fila)
-  actualizarFilas([...filasdeVideos,fila])
-}
-
+/*
 const cambiarColor = (color,id) => {  
   const actualizarColorDeFila = filasdeVideos.map( (fila) => {
   if(fila.id === id){
@@ -147,39 +158,46 @@ return video
 })
 actualizarVideos(Like)
 }
+*/
 
-
+const url = "/videos";
+const url2 = "/filasdeVideos"
+const url3 = "/elementos"
 
   return (    
-    <div>
+  
     
-      <Header/>             
-      <Banner/> 
-      {filasdeVideos.map( (fila) => <Fila      
-      datos={fila}
-      key={fila.id}
-      //filter nos ayuda a filtrar una condición en este caso que la llave lleve un nombre
-      videos={videos.filter( video => video.selectCategoria === fila.nombre)} 
-      eliminarVideo= {eliminarVideo}  
-      cambiarColor={cambiarColor}  
-      like={like} 
-      />)}
 
-      <Footer/>
+
+  <Router>
+    <Header/>
+
+    <Routes>
+      <Route path='/' element={<Home  url={url} url2={url2} />} />
+      <Route path='/NewVideos' element={<ReVideos url={url} url2={url2} />} />
+      <Route path='/NewCategoria' element={<ReCategoria url={url} url2={url2} url3={url3} />} />
+      <Route path='*' element={<Page404/>} />
+    </Routes>
+  
+    <Footer/>
+
+    <div>
+     
+              
       
+
+
       
-      <NewVideo selectCategoria={filasdeVideos.map( (select) => select.nombre )}       
-      regisrarVideo={regisrarVideo}
-      />
-      <Footer/>
-      <NewCategoria elementos={elementos.map( (elemento) => elemento.colorPrimario )}
-      regisrarFila={regisrarFila}
-      />
-      <Footer/>
+ 
+     
 
 
     {/*<div>      
+
+
+
     
+
     
       <Header/>             
       <Banner/>  
@@ -193,7 +211,8 @@ actualizarVideos(Like)
 
     */}
 
-</div>
+  </div>
+  </Router>
 
   );
 }

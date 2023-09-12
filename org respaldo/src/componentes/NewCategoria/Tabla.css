@@ -1,0 +1,45 @@
+.tabla_contenedor{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.categori_table{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    border: solid 2px #2A7AE4; 
+    margin-top: 25px;        
+}
+
+.categori_table thead th{
+    text-align: center;
+    color: #fff;
+    border: solid 2px #2A7AE4;
+    font-size: 1.5rem;
+    padding: 4px 10px;
+    
+}
+
+.categori_table tbody tr{
+    width: 100%;
+}
+
+.categori_table tbody tr td{
+    border: 1px solid #4b4b4b;
+    font-size: 1.3rem;
+    padding: 15px 5px;
+}
+
+.editar, .remover{
+    text-align: center;
+}
+
+@media screen and (min-width:1440px){
+
+    .categori_table thead th{
+    font-size: 2rem;
+    }
+    .categori_table tbody tr td{
+        font-size: 1.7rem;
+    }
+}

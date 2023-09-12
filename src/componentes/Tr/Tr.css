@@ -1,0 +1,23 @@
+tr{
+    width: 100%;
+}
+
+tr td{
+    border: 1px solid #4b4b4b;
+    font-size: 1.3rem;
+    padding: 15px 5px;
+}
+
+.editar, .remover{
+    text-align: center;
+}
+
+@media screen and (min-width:1440px){
+
+    thead th{
+    font-size: 2rem;
+    }
+    tr td{
+        font-size: 1.7rem;
+    }
+}

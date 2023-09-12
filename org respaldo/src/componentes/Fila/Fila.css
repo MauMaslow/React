@@ -1,0 +1,131 @@
+.fila{
+    width: calc(100% - 16px);
+    height: auto;
+    display: auto;
+    flex-direction: column;
+    padding: 0px;
+    margin: auto;
+}
+
+.contenido__fila{
+    display: flex; 
+    height: auto;   
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+}
+
+.informacion__fila{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: flex-end; 
+    flex-direction: column;   
+    gap: 12px;
+    padding: 0px 20px;
+}
+
+.informacion__fila a{
+    width: 250px;
+    height: 60px;
+    padding: 2px 2px;    
+    color: #fff;   
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.informacion__fila span{    
+    color: #fff;       
+    font-size: 1.80rem;
+}
+
+.cards__fila{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;   
+    flex-wrap: nowrap; 
+    gap: 15px; 
+       
+    
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Mejora el desplazamiento en dispositivos táctiles */
+    scrollbar-width: none; /* Oculta la barra de desplazamiento en navegadores modernos */
+    -ms-overflow-style: none;
+}
+
+.cards__fila::-webkit-scrollbar {
+    width: 0; /* Ancho de la barra de desplazamiento */
+  }
+  
+  .cards__fila::-webkit-scrollbar-thumb {
+    background-color: transparent    ; /* Color del pulgar (la parte que se arrastra) */
+  }
+  
+  .cards__fila::-webkit-scrollbar-track {
+    background-color: transparent; /* Color de fondo de la barra de desplazamiento */
+  }
+
+.div_input{
+    width: 50px;
+    height: 20px;
+}
+.boton_color{
+    width: 50px;
+    height: 30px;
+    padding: 1px;
+}
+  
+@media screen and (min-width:768px){
+
+    .contenido__fila{
+        gap: 30px;
+    }
+
+    .informacion__fila{
+        width: 100%;
+        height: 50px;   
+        align-items: center; 
+        justify-content: start;
+        flex-direction: row;   
+        gap: 20px;
+        padding: 0px 10px;   
+        position: relative;  
+    }
+    
+
+    .informacion__fila a{ 
+        height: 50px;
+        padding: 2px 2px;                    
+    }
+    
+    .div_input{
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+
+}
+
+
+  @media screen and (min-width:1440px){
+
+    .fila{
+        width: calc(100% - 64px);
+        padding: 32px;        
+    }
+
+    .contenido__fila{
+        display: flex; 
+        height: auto;
+    }
+
+    .cards__fila{
+        width: 100%;
+        height: 410px;        
+        gap: 35px; 
+    }
+
+  }

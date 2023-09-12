@@ -1,0 +1,202 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "codeSeg": "",
+      "descripcionVideo": "",
+      "linkImagen": "/img/img-banner.jpg",
+      "linkVideo": "7kbjKCj-rMQ?si=R20sd58SrpkteiOu",
+      "selectCategoria": "Salsa",
+      "titulo": "La Conciencia"
+    },
+    {
+      "titulo": "Corazòn de Acero",
+      "linkVideo": "RUV55lGPGaY?si=dVW_G2kBJ7-oDO5E",
+      "linkImagen": "sadad",
+      "selectCategoria": "Salsa",
+      "descripcionVideo": "asdad",
+      "codeSeg": "adad",
+      "id": "23f9aecb-562f-43e3-b3b3-13439974f803"
+    },
+    {
+      "titulo": "Conteo Regresivo",
+      "linkVideo": "Zc13NAc7dvM?si=99AVQvH7FcRWkQFV",
+      "linkImagen": "asdad",
+      "selectCategoria": "Salsa",
+      "descripcionVideo": "adsad",
+      "codeSeg": "asdasd",
+      "id": "0b131a40-3258-4ea3-b695-15aad9f50f4f"
+    },
+    {
+      "titulo": "Eres Mi Sueño",
+      "linkVideo": "FXEKw5LGQzA?si=JzuOwaSYP-K8Icyf",
+      "linkImagen": "asd",
+      "selectCategoria": "Salsa",
+      "descripcionVideo": "asda",
+      "codeSeg": "asd",
+      "id": "030a908b-763d-4399-a581-47f06cba5c4f"
+    },
+    {
+      "titulo": "Extrañandote",
+      "linkVideo": "obSH6xjgrCY?si=S2HmsIYPB_gchyee",
+      "linkImagen": "asd",
+      "selectCategoria": "Salsa",
+      "descripcionVideo": "asd",
+      "codeSeg": "asd",
+      "id": "dab8f159-1998-4711-bf8a-169549260132"
+    },
+    {
+      "titulo": "Gilgamesh",
+      "linkVideo": "Cr-hpNA9NuU?si=Brxu-OW_mMFGHguj",
+      "linkImagen": "",
+      "selectCategoria": "Animada",
+      "descripcionVideo": "",
+      "codeSeg": "1234",
+      "id": "764bccf0-100c-4d24-815a-76d41d816683"
+    },
+    {
+      "titulo": "Diosa Isis",
+      "linkVideo": "x3D56fCKHcs?si=VxcCB4DtgmOYP37F",
+      "linkImagen": "asdas",
+      "selectCategoria": "Animada",
+      "descripcionVideo": "asdasd",
+      "codeSeg": "asdasdasd",
+      "id": "d154b5ce-a550-4b38-8c6f-ce72aa807bcf"
+    },
+    {
+      "titulo": "Hermes",
+      "linkVideo": "Tda5u5JNRko?si=VAyK4k87Or8ucQWH",
+      "linkImagen": "ss",
+      "selectCategoria": "Animada",
+      "descripcionVideo": "asdasd",
+      "codeSeg": "1111111111",
+      "id": "f26c1627-1575-42ae-89b2-be6ab8c6d3e6"
+    },
+    {
+      "titulo": "Artemisa ",
+      "linkVideo": "-xTvwrJmiik?si=BJISlKGmOHoSIWyd",
+      "linkImagen": "dasdasd",
+      "selectCategoria": "Animada",
+      "descripcionVideo": "sadasd",
+      "codeSeg": "s",
+      "id": "912ffd38-c7a1-4cdd-8f9e-3f43b1383f74"
+    },
+    {
+      "titulo": "Hércules",
+      "linkVideo": "9olKqywifHo?si=YvmGiGJdb22MbHLo",
+      "linkImagen": "asdasd",
+      "selectCategoria": "Animada",
+      "descripcionVideo": "asdasd",
+      "codeSeg": "555555555",
+      "id": "fd96e6de-1711-40f7-8404-a67110302d1f"
+    },
+    {
+      "titulo": "Chained To The Rhythm",
+      "linkVideo": "Um7pMggPnug?si=0taHMYNYFvcqBd8f",
+      "linkImagen": "asd",
+      "selectCategoria": "",
+      "descripcionVideo": "",
+      "codeSeg": "1234",
+      "id": "764bccf0-100c-4d24-815a-76d41d816683"
+    },
+    {
+      "titulo": "Last Friday Night",
+      "linkVideo": "KlyXNRrsk4A?si=u2lOK0kqz_Ds2k-T",
+      "linkImagen": "asdas",
+      "selectCategoria": "",
+      "descripcionVideo": "asdasd",
+      "codeSeg": "asdasdasd",
+      "id": "d154b5ce-a550-4b38-8c6f-ce72aa807bcf"
+    },
+    {
+      "titulo": "Roar",
+      "linkVideo": "CevxZvSJLk8?si=4VdII445hDL4rB4c",
+      "linkImagen": "ss",
+      "selectCategoria": "",
+      "descripcionVideo": "asdasd",
+      "codeSeg": "1111111111",
+      "id": "f26c1627-1575-42ae-89b2-be6ab8c6d3e6"
+    },
+    {
+      "titulo": "Firework",
+      "linkVideo": "QGJuMBdaqIw?si=fQ3xwBnrgUhJJh4v",
+      "linkImagen": "dasdasd",
+      "selectCategoria": "",
+      "descripcionVideo": "sadasd",
+      "codeSeg": "s",
+      "id": "912ffd38-c7a1-4cdd-8f9e-3f43b1383f74"
+    },
+    {
+      "titulo": "Dark Horse",
+      "linkVideo": "4s0DM-Bvzqk?si=5YLt6hmXEXrJoQz7",
+      "linkImagen": "asdasd",
+      "selectCategoria": "",
+      "descripcionVideo": "asdasd",
+      "codeSeg": "555555555",
+      "id": "fd96e6de-1711-40f7-8404-a67110302d1f"
+    }
+  ],
+  "filasdeVideos": [
+    {
+      "nombre": "",
+      "descripcion": "una descripcion grande y completa",
+      "codigo": "asdad",
+      "color": "#0AC2FF",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "codigo": "",
+      "color": "#FFBA05",
+      "descripcion": "Mueve el cuerpo con Salsa",
+      "nombre": "Salsa"
+    },
+    {
+      "nombre": "Animada",
+      "descripcion": "Musica animada",
+      "codigo": "asdad",
+      "color": "#c21414",
+      "id": "f371ccaf-9f5c-4951-9470-57ea45c95f0f"
+    }
+  ],
+  "elementos": [
+    {
+      "titulo": " ",
+      "colorPrimario": "#6BD1FF"
+    },
+    {
+      "titulo": "Back End",
+      "colorPrimario": "#00C86F"
+    },
+    {
+      "titulo": "Mobile",
+      "colorPrimario": "#FF8C2A"
+    },
+    {
+      "titulo": "Infraestrutura",
+      "colorPrimario": "#FFBA05"
+    },
+    {
+      "titulo": "Data Science",
+      "colorPrimario": "#DC6EBE"
+    },
+    {
+      "titulo": "Design & UX",
+      "colorPrimario": "#9CD33B"
+    },
+    {
+      "titulo": "Marketing",
+      "colorPrimario": "#6B5BE2"
+    },
+    {
+      "titulo": "Inovación y Gestión",
+      "colorPrimario": "#9CD33B"
+    }
+  ],
+  "otracosa": [
+    {
+      "titulo": "Inovación y Gestión",
+      "colorPrimario": "#9CD33B"
+    }
+  ]
+}

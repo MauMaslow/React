@@ -13,15 +13,16 @@
 
 
 .titulo{
-    width : 200px; 
-    height: 100%;
-    color: #fff;
+    overflow: hidden;
+    color: #fffb04;
     font-size: 2rem;
     font-weight: bold;
     position: absolute;
-    top: 25px;
+    bottom: 40px;
     right: 5px;
     border: none;
+    background-color: rgba(77, 76, 76, 0.6);
+   
 }
 
 

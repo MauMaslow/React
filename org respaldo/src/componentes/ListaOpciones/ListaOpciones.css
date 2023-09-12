@@ -1,0 +1,44 @@
+.video_lista{
+    width: 100%;
+    position: relative;   
+}
+
+.video_lista label{    
+    position: absolute;
+    color: #E5E5E5;
+    font-size: 1rem;
+    top: 10px;
+    left: 10px;
+}
+
+
+.video_select{
+    width: 100%;
+    height: 65px;
+    padding: 15px 20px 0px 20px;    
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #53585D;
+    color: #fff;    
+}
+
+
+@media screen and (min-width:1440px){
+    .video_lista{        
+        height: 70px;
+    }
+
+    .video_lista label{            
+        font-size: 1.5rem;        
+    }
+
+    .video_select{
+        width: 100%;
+        height: 100px;
+        padding: 35px 20px 0px 20px;    
+        font-size: 1.5rem;
+        border-radius: 5px;
+        background-color: #53585D;
+        color: #fff;    
+    }
+}
